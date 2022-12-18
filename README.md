@@ -1,4 +1,4 @@
-# onScanner
+# Algorithm
 **The used algorithm is Douglas–Peucker algorithm**
 
 In our case, we used this algorithm to get only 4 corner points among many points. By getting 4 corner points we could draw a line between these points to outline the 
@@ -10,3 +10,6 @@ Given the start and end points of a curve, the algorithm will first find the ver
 
 It removes points that contribute very little (epsilon) to the shape of the contour. Colinear points are a trivial case because they contribute *zero* to the shape of the contour. The most prominent corners are left standing. The result is an approximation of the input contour.
 
+![image](https://user-images.githubusercontent.com/90592199/208309039-efbaa5e0-ebf8-4aa5-a5e3-678608b8025e.png)
+
+sources : https://en.wikipedia.org/wiki/Ramer%E2%80%93Douglas%E2%80%93Peucker_algorithm
