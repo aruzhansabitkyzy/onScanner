@@ -1,5 +1,5 @@
 # onScanner
-The used algorithm is Douglas–Peucker algorithm 
+**The used algorithm is Douglas–Peucker algorithm**
 
 In our case, we used this algorithm to get only 4 corner points among many points. By getting 4 corner points we could draw a line between these points to outline the 
 document.
